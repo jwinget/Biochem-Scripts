@@ -54,17 +54,17 @@ def compare():
 			list2_uniques.append(item)
 
 	print '='*20
-	print 'MATCHES'
+	print 'MATCHES - '+str(len(matches))
 	print '='*20
 	for item in matches:
 		print item
 	print '='*20
-	print list1_name+' UNIQUES'
+	print list1_name+' UNIQUES - '+str(len(list1_uniques))
 	print '='*20
 	for item in list1_uniques:
 		print item
 	print '='*20
-	print list2_name+' UNIQUES'
+	print list2_name+' UNIQUES - '+str(len(list2_uniques))
 	print '='*20
 	for item in list2_uniques:
 		print item
